@@ -24,16 +24,16 @@ The chatbot uses GPT-3.5 from OpenAI to generate responses based on user input a
 2. Run the test.py script, interact with the chatbot by providing input, and receive conversational responses.
    
 ## Requirements
-Python 3.x
-Requests
-BeautifulSoup
-OpenAI API key
+* Python 3.x
+* Requests
+* BeautifulSoup
+* OpenAI API key
 
 ## Setup
 Install the required libraries using pip:
-
+```
   pip install requests beautifulsoup4 openai
-
+```
 Set up an OpenAI account and obtain an API key.
 Update the openai.api_key variable in the test.py script with your API key.
 
